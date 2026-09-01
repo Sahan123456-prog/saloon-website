@@ -305,3 +305,64 @@ section {
 .review-card h4 {
     color: #b76e79;
 }
+
+.booking {
+    background: #f6eeeb;
+}
+
+#booking-form input,
+#booking-form select,
+#booking-form textarea {
+    width: 100%;
+
+    padding: 15px 18px;
+    
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    font-family: "Poppins", sans-serif;
+
+    background: white;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+#booking-form input:focus,
+#booking-form select:focus,
+#booking-form textarea:focus {
+    border-color: #b76e79;
+
+    box-shadow: 0 0 0 3px rgba(183, 110, 121, 0.1);
+}
+
+#booking-form textarea {
+    resize: vertical;
+}
+
+#booking-form button {
+    border: none;
+
+    padding: 15px;
+
+    background: #b76e79;
+    color: white;
+
+    border-radius: 30px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#booking-form button:hover {
+    background: #8f4e5c;
+
+    transform: translateY(-2px);
+}
