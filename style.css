@@ -366,3 +366,39 @@ section {
 
     transform: translateY(-2px);
 }
+
+.contact {
+    background: white;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+} 
+
+.contact-item {
+    text-align: center;
+
+    padding: 25px;
+
+    background: #fffaf8;
+
+    border-radius: 10px;
+}
+
+.contact-item h3 {
+    font-size: 21px;
+    color: #49373a;
+
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 14px;
+    color: #777;
+}
+
