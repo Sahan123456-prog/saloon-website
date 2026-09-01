@@ -216,3 +216,26 @@ section {
     color: #b76e79;
     font-weight: 600;
 }
+
+.about {
+    background: #f6eeeb;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+
+    text-align: center;
+}
+
+.about-text h3 {
+    font-size: 34px;
+    color: #49373a;
+
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #666;
+    margin-bottom: 15px;
+}
