@@ -71,3 +71,51 @@ header {
 .nav-links a:hover {
     color: #b76e79;
 }
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 120px 20px 80px;
+
+    background: 
+        linear-gradient(
+            rgba(60, 30, 35, 0.45),
+            rgba(60, 30, 35, 0.45)
+        ),
+        
+        url("images/salon1.jpg");
+        
+        background-size: cover;
+        background-position: center;
+}
+
+.hero-content {
+    max-width: 750px;
+    color: white;
+}
+
+.welcome-text {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content > p:not(.welcome-text) {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 35px;
+}
