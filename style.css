@@ -119,3 +119,23 @@ header {
     max-width: 600px;
     margin: 0 auto 35px;
 }
+
+.btn {
+    display: inline-block;
+
+    padding: 15px 35px;
+
+    background: #b76e79;
+    color: white;
+
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    padding: 100px 30px;
+}
