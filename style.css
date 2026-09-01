@@ -402,3 +402,14 @@ section {
     color: #777;
 }
 
+footer {
+    background: #302629;
+
+    color: #ddd;
+
+    text-align: center;
+
+    padding: 25px;
+
+    font-size: 13px;
+}
